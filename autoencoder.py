@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 30 20:30:24 2017
-
-@author: nownow
-"""
-
 import pandas
 import numpy as np
 from sklearn.decomposition import PCA
