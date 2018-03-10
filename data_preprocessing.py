@@ -64,8 +64,8 @@ x_train=pca.transform(x_train)
 x_test=pca.transform(x_test)
 
 import pickle
-f = open('train.pickle', 'wb')
+f = open('data/train.pickle', 'wb')
 pickle.dump((x_train,y_train), f, pickle.HIGHEST_PROTOCOL)
 f.close()
-f = open('test.pickle', 'wb')
+f = open('data/test.pickle', 'wb')
 pickle.dump((x_test,y_test), f, pickle.HIGHEST_PROTOCOL)
